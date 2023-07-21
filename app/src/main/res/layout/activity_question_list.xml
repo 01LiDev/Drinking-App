@@ -1,0 +1,1821 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/glasses"
+    android:orientation="vertical"
+    tools:context=".QuestionList">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+
+            app:cardCornerRadius="20dp"
+            app:cardElevation="11dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:id="@+id/Rl1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/card_view_background"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="66dp">
+
+                    <TextView
+                        android:id="@+id/Qs1"
+                        android:layout_width="103dp"
+                        android:layout_height="34dp"
+                        android:layout_marginHorizontal="5dp"
+                        android:layout_marginVertical="10dp"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:text="Question 1"
+
+                        android:textSize="14sp" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/e1"
+                        android:layout_width="86dp"
+                        android:layout_height="41dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/edit_question_btn"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="5"
+                        android:text="Edit"
+                        android:textColor="#FFFFFF" />
+
+                    <Space
+                        android:layout_width="15dp"
+                        android:layout_height="43dp"
+                        android:layout_weight="1" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/c1"
+                        android:layout_width="86dp"
+                        android:layout_height="41dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/edit_question_btn"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="5"
+                        android:text="Clear"
+                        android:textColor="#FFFFFF" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="326dp"
+                    android:layout_height="69dp"
+                    android:layout_marginHorizontal="0dp"
+                    android:layout_marginVertical="65dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true">
+
+
+                    <TextView
+                        android:id="@+id/tv1"
+                        android:layout_width="290dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:ems="10"
+                        android:inputType="textMultiLine"
+                        android:text="Example 1"
+
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+
+            app:cardCornerRadius="20dp"
+            app:cardElevation="11dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:id="@+id/Rl2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/card_view_background"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="66dp">
+
+                    <TextView
+                        android:id="@+id/Qs2"
+                        android:layout_width="103dp"
+                        android:layout_height="34dp"
+                        android:layout_marginHorizontal="5dp"
+                        android:layout_marginVertical="10dp"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:text="Question 2"
+
+                        android:textSize="14sp" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/e2"
+                        android:layout_width="86dp"
+                        android:layout_height="41dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/edit_question_btn"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="5"
+                        android:text="Edit"
+                        android:textColor="#FFFFFF" />
+
+                    <Space
+                        android:layout_width="15dp"
+                        android:layout_height="43dp"
+                        android:layout_weight="1" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/c2"
+                        android:layout_width="86dp"
+                        android:layout_height="41dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/edit_question_btn"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="5"
+                        android:text="Clear"
+                        android:textColor="#FFFFFF" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="326dp"
+                    android:layout_height="69dp"
+                    android:layout_marginHorizontal="0dp"
+                    android:layout_marginVertical="65dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true">
+
+
+                    <TextView
+                        android:id="@+id/tv2"
+                        android:layout_width="290dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:ems="10"
+                        android:inputType="textMultiLine"
+                        android:text="Example 2"
+
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+
+            app:cardCornerRadius="20dp"
+            app:cardElevation="11dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:id="@+id/Rl3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/card_view_background"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="66dp">
+
+                    <TextView
+                        android:id="@+id/Qs3"
+                        android:layout_width="103dp"
+                        android:layout_height="34dp"
+                        android:layout_marginHorizontal="5dp"
+                        android:layout_marginVertical="10dp"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:text="Question 3"
+
+                        android:textSize="14sp" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/e3"
+                        android:layout_width="86dp"
+                        android:layout_height="41dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/edit_question_btn"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="5"
+                        android:text="Edit"
+                        android:textColor="#FFFFFF" />
+
+                    <Space
+                        android:layout_width="15dp"
+                        android:layout_height="43dp"
+                        android:layout_weight="1" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/c3"
+                        android:layout_width="86dp"
+                        android:layout_height="41dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/edit_question_btn"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="5"
+                        android:text="Clear"
+                        android:textColor="#FFFFFF" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="326dp"
+                    android:layout_height="69dp"
+                    android:layout_marginHorizontal="0dp"
+                    android:layout_marginVertical="65dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true">
+
+
+                    <TextView
+                        android:id="@+id/tv3"
+                        android:layout_width="290dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:ems="10"
+                        android:inputType="textMultiLine"
+                        android:text="Example 3"
+
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+
+            app:cardCornerRadius="20dp"
+            app:cardElevation="11dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:id="@+id/Rl4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/card_view_background"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="66dp">
+
+                    <TextView
+                        android:id="@+id/Qs4"
+                        android:layout_width="103dp"
+                        android:layout_height="34dp"
+                        android:layout_marginHorizontal="5dp"
+                        android:layout_marginVertical="10dp"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:text="Question 4"
+
+                        android:textSize="14sp" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/e4"
+                        android:layout_width="86dp"
+                        android:layout_height="41dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/edit_question_btn"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="5"
+                        android:text="Edit"
+                        android:textColor="#FFFFFF" />
+
+                    <Space
+                        android:layout_width="15dp"
+                        android:layout_height="43dp"
+                        android:layout_weight="1" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/c4"
+                        android:layout_width="86dp"
+                        android:layout_height="41dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/edit_question_btn"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="5"
+                        android:text="Clear"
+                        android:textColor="#FFFFFF" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="326dp"
+                    android:layout_height="69dp"
+                    android:layout_marginHorizontal="0dp"
+                    android:layout_marginVertical="65dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true">
+
+
+                    <TextView
+                        android:id="@+id/tv4"
+                        android:layout_width="290dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:ems="10"
+                        android:inputType="textMultiLine"
+                        android:text="Example 4"
+
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+
+            app:cardCornerRadius="20dp"
+            app:cardElevation="11dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:id="@+id/Rl5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/card_view_background"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="66dp">
+
+                    <TextView
+                        android:id="@+id/Qs5"
+                        android:layout_width="103dp"
+                        android:layout_height="34dp"
+                        android:layout_marginHorizontal="5dp"
+                        android:layout_marginVertical="10dp"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:text="Question 5"
+
+                        android:textSize="14sp" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/e5"
+                        android:layout_width="86dp"
+                        android:layout_height="41dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/edit_question_btn"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="5"
+                        android:text="Edit"
+                        android:textColor="#FFFFFF" />
+
+                    <Space
+                        android:layout_width="15dp"
+                        android:layout_height="43dp"
+                        android:layout_weight="1" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/c5"
+                        android:layout_width="86dp"
+                        android:layout_height="41dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/edit_question_btn"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="5"
+                        android:text="Clear"
+                        android:textColor="#FFFFFF" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="326dp"
+                    android:layout_height="69dp"
+                    android:layout_marginHorizontal="0dp"
+                    android:layout_marginVertical="65dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true">
+
+
+                    <TextView
+                        android:id="@+id/tv5"
+                        android:layout_width="290dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:ems="10"
+                        android:inputType="textMultiLine"
+                        android:text="Example 5"
+
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+
+            app:cardCornerRadius="20dp"
+            app:cardElevation="11dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:id="@+id/Rl6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/card_view_background"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="66dp">
+
+                    <TextView
+                        android:id="@+id/Qs6"
+                        android:layout_width="103dp"
+                        android:layout_height="34dp"
+                        android:layout_marginHorizontal="5dp"
+                        android:layout_marginVertical="10dp"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:text="Question 6"
+
+                        android:textSize="14sp" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/e6"
+                        android:layout_width="86dp"
+                        android:layout_height="41dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/edit_question_btn"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="5"
+                        android:text="Edit"
+                        android:textColor="#FFFFFF" />
+
+                    <Space
+                        android:layout_width="15dp"
+                        android:layout_height="43dp"
+                        android:layout_weight="1" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/c6"
+                        android:layout_width="86dp"
+                        android:layout_height="41dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/edit_question_btn"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="5"
+                        android:text="Clear"
+                        android:textColor="#FFFFFF" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="326dp"
+                    android:layout_height="69dp"
+                    android:layout_marginHorizontal="0dp"
+                    android:layout_marginVertical="65dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true">
+
+
+                    <TextView
+                        android:id="@+id/tv6"
+                        android:layout_width="290dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:ems="10"
+                        android:inputType="textMultiLine"
+                        android:text="Example 6"
+
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+
+            app:cardCornerRadius="20dp"
+            app:cardElevation="11dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:id="@+id/Rl7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/card_view_background"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="66dp">
+
+                    <TextView
+                        android:id="@+id/Qs7"
+                        android:layout_width="103dp"
+                        android:layout_height="34dp"
+                        android:layout_marginHorizontal="5dp"
+                        android:layout_marginVertical="10dp"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:text="Question 7"
+
+                        android:textSize="14sp" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/e7"
+                        android:layout_width="86dp"
+                        android:layout_height="41dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/edit_question_btn"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="5"
+                        android:text="Edit"
+                        android:textColor="#FFFFFF" />
+
+                    <Space
+                        android:layout_width="15dp"
+                        android:layout_height="43dp"
+                        android:layout_weight="1" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/c7"
+                        android:layout_width="86dp"
+                        android:layout_height="41dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/edit_question_btn"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="5"
+                        android:text="Clear"
+                        android:textColor="#FFFFFF" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="326dp"
+                    android:layout_height="69dp"
+                    android:layout_marginHorizontal="0dp"
+                    android:layout_marginVertical="65dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true">
+
+
+                    <TextView
+                        android:id="@+id/tv7"
+                        android:layout_width="290dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:ems="10"
+                        android:inputType="textMultiLine"
+                        android:text="Example 7"
+
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+
+            app:cardCornerRadius="20dp"
+            app:cardElevation="11dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:id="@+id/Rl8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/card_view_background"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="66dp">
+
+                    <TextView
+                        android:id="@+id/Qs8"
+                        android:layout_width="103dp"
+                        android:layout_height="34dp"
+                        android:layout_marginHorizontal="5dp"
+                        android:layout_marginVertical="10dp"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:text="Question 8"
+
+                        android:textSize="14sp" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/e8"
+                        android:layout_width="86dp"
+                        android:layout_height="41dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/edit_question_btn"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="5"
+                        android:text="Edit"
+                        android:textColor="#FFFFFF" />
+
+                    <Space
+                        android:layout_width="15dp"
+                        android:layout_height="43dp"
+                        android:layout_weight="1" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/c8"
+                        android:layout_width="86dp"
+                        android:layout_height="41dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/edit_question_btn"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="5"
+                        android:text="Clear"
+                        android:textColor="#FFFFFF" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="326dp"
+                    android:layout_height="69dp"
+                    android:layout_marginHorizontal="0dp"
+                    android:layout_marginVertical="65dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true">
+
+
+                    <TextView
+                        android:id="@+id/tv8"
+                        android:layout_width="290dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:ems="10"
+                        android:inputType="textMultiLine"
+                        android:text="Example 8"
+
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+
+            app:cardCornerRadius="20dp"
+            app:cardElevation="11dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:id="@+id/Rl9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/card_view_background"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="66dp">
+
+                    <TextView
+                        android:id="@+id/Qs9"
+                        android:layout_width="103dp"
+                        android:layout_height="34dp"
+                        android:layout_marginHorizontal="5dp"
+                        android:layout_marginVertical="10dp"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:text="Question 9"
+
+                        android:textSize="14sp" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/e9"
+                        android:layout_width="86dp"
+                        android:layout_height="41dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/edit_question_btn"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="5"
+                        android:text="Edit"
+                        android:textColor="#FFFFFF" />
+
+                    <Space
+                        android:layout_width="15dp"
+                        android:layout_height="43dp"
+                        android:layout_weight="1" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/c9"
+                        android:layout_width="86dp"
+                        android:layout_height="41dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/edit_question_btn"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="5"
+                        android:text="Clear"
+                        android:textColor="#FFFFFF" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="326dp"
+                    android:layout_height="69dp"
+                    android:layout_marginHorizontal="0dp"
+                    android:layout_marginVertical="65dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true">
+
+
+                    <TextView
+                        android:id="@+id/tv9"
+                        android:layout_width="290dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:ems="10"
+                        android:inputType="textMultiLine"
+                        android:text="Example 9"
+
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+
+            app:cardCornerRadius="20dp"
+            app:cardElevation="11dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:id="@+id/Rl10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/card_view_background"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="66dp">
+
+                    <TextView
+                        android:id="@+id/Qs10"
+                        android:layout_width="103dp"
+                        android:layout_height="34dp"
+                        android:layout_marginHorizontal="5dp"
+                        android:layout_marginVertical="10dp"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:text="Question 10"
+
+                        android:textSize="14sp" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/e10"
+                        android:layout_width="86dp"
+                        android:layout_height="41dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/edit_question_btn"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="5"
+                        android:text="Edit"
+                        android:textColor="#FFFFFF" />
+
+                    <Space
+                        android:layout_width="15dp"
+                        android:layout_height="43dp"
+                        android:layout_weight="1" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/c10"
+                        android:layout_width="86dp"
+                        android:layout_height="41dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/edit_question_btn"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="5"
+                        android:text="Clear"
+                        android:textColor="#FFFFFF" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="326dp"
+                    android:layout_height="69dp"
+                    android:layout_marginHorizontal="0dp"
+                    android:layout_marginVertical="65dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true">
+
+
+                    <TextView
+                        android:id="@+id/tv10"
+                        android:layout_width="290dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:ems="10"
+                        android:inputType="textMultiLine"
+                        android:text="Example 10"
+
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+
+            app:cardCornerRadius="20dp"
+            app:cardElevation="11dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:id="@+id/Rl11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/card_view_background"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="66dp">
+
+                    <TextView
+                        android:id="@+id/Qs11"
+                        android:layout_width="103dp"
+                        android:layout_height="34dp"
+                        android:layout_marginHorizontal="5dp"
+                        android:layout_marginVertical="10dp"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:text="Question 11"
+
+                        android:textSize="14sp" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/e11"
+                        android:layout_width="86dp"
+                        android:layout_height="41dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/edit_question_btn"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="5"
+                        android:text="Edit"
+                        android:textColor="#FFFFFF" />
+
+                    <Space
+                        android:layout_width="15dp"
+                        android:layout_height="43dp"
+                        android:layout_weight="1" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/c11"
+                        android:layout_width="86dp"
+                        android:layout_height="41dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/edit_question_btn"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="5"
+                        android:text="Clear"
+                        android:textColor="#FFFFFF" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="326dp"
+                    android:layout_height="69dp"
+                    android:layout_marginHorizontal="0dp"
+                    android:layout_marginVertical="65dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true">
+
+
+                    <TextView
+                        android:id="@+id/tv11"
+                        android:layout_width="290dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:ems="10"
+                        android:inputType="textMultiLine"
+                        android:text="Example 11"
+
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+
+            app:cardCornerRadius="20dp"
+            app:cardElevation="11dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:id="@+id/Rl12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/card_view_background"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="66dp">
+
+                    <TextView
+                        android:id="@+id/Qs12"
+                        android:layout_width="103dp"
+                        android:layout_height="34dp"
+                        android:layout_marginHorizontal="5dp"
+                        android:layout_marginVertical="10dp"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:text="Question 12"
+
+                        android:textSize="14sp" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/e12"
+                        android:layout_width="86dp"
+                        android:layout_height="41dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/edit_question_btn"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="5"
+                        android:text="Edit"
+                        android:textColor="#FFFFFF" />
+
+                    <Space
+                        android:layout_width="15dp"
+                        android:layout_height="43dp"
+                        android:layout_weight="1" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/c12"
+                        android:layout_width="86dp"
+                        android:layout_height="41dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/edit_question_btn"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="5"
+                        android:text="Clear"
+                        android:textColor="#FFFFFF" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="326dp"
+                    android:layout_height="69dp"
+                    android:layout_marginHorizontal="0dp"
+                    android:layout_marginVertical="65dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true">
+
+
+                    <TextView
+                        android:id="@+id/tv12"
+                        android:layout_width="290dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:ems="10"
+                        android:inputType="textMultiLine"
+                        android:text="Example 12"
+
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+
+            app:cardCornerRadius="20dp"
+            app:cardElevation="11dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:id="@+id/Rl13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/card_view_background"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="66dp">
+
+                    <TextView
+                        android:id="@+id/Qs13"
+                        android:layout_width="103dp"
+                        android:layout_height="34dp"
+                        android:layout_marginHorizontal="5dp"
+                        android:layout_marginVertical="10dp"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:text="Question 13"
+
+                        android:textSize="14sp" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/e13"
+                        android:layout_width="86dp"
+                        android:layout_height="41dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/edit_question_btn"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="5"
+                        android:text="Edit"
+                        android:textColor="#FFFFFF" />
+
+                    <Space
+                        android:layout_width="15dp"
+                        android:layout_height="43dp"
+                        android:layout_weight="1" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/c13"
+                        android:layout_width="86dp"
+                        android:layout_height="41dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/edit_question_btn"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="5"
+                        android:text="Clear"
+                        android:textColor="#FFFFFF" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="326dp"
+                    android:layout_height="69dp"
+                    android:layout_marginHorizontal="0dp"
+                    android:layout_marginVertical="65dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true">
+
+
+                    <TextView
+                        android:id="@+id/tv13"
+                        android:layout_width="290dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:ems="10"
+                        android:inputType="textMultiLine"
+                        android:text="Example 13"
+
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+
+            app:cardCornerRadius="20dp"
+            app:cardElevation="11dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:id="@+id/Rl14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/card_view_background"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="66dp">
+
+                    <TextView
+                        android:id="@+id/Qs14"
+                        android:layout_width="103dp"
+                        android:layout_height="34dp"
+                        android:layout_marginHorizontal="5dp"
+                        android:layout_marginVertical="10dp"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:text="Question 14"
+
+                        android:textSize="14sp" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/e14"
+                        android:layout_width="86dp"
+                        android:layout_height="41dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/edit_question_btn"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="5"
+                        android:text="Edit"
+                        android:textColor="#FFFFFF" />
+
+                    <Space
+                        android:layout_width="15dp"
+                        android:layout_height="43dp"
+                        android:layout_weight="1" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/c14"
+                        android:layout_width="86dp"
+                        android:layout_height="41dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/edit_question_btn"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="5"
+                        android:text="Clear"
+                        android:textColor="#FFFFFF" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="326dp"
+                    android:layout_height="69dp"
+                    android:layout_marginHorizontal="0dp"
+                    android:layout_marginVertical="65dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true">
+
+
+                    <TextView
+                        android:id="@+id/tv14"
+                        android:layout_width="290dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:ems="10"
+                        android:inputType="textMultiLine"
+                        android:text="Example 14"
+
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+
+            app:cardCornerRadius="20dp"
+            app:cardElevation="11dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:id="@+id/Rl15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/card_view_background"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="66dp">
+
+                    <TextView
+                        android:id="@+id/Qs15"
+                        android:layout_width="103dp"
+                        android:layout_height="34dp"
+                        android:layout_marginHorizontal="5dp"
+                        android:layout_marginVertical="10dp"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:text="Question 15"
+
+                        android:textSize="14sp" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/e15"
+                        android:layout_width="86dp"
+                        android:layout_height="41dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/edit_question_btn"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="5"
+                        android:text="Edit"
+                        android:textColor="#FFFFFF" />
+
+                    <Space
+                        android:layout_width="15dp"
+                        android:layout_height="43dp"
+                        android:layout_weight="1" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/c15"
+                        android:layout_width="86dp"
+                        android:layout_height="41dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/edit_question_btn"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="5"
+                        android:text="Clear"
+                        android:textColor="#FFFFFF" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="326dp"
+                    android:layout_height="69dp"
+                    android:layout_marginHorizontal="0dp"
+                    android:layout_marginVertical="65dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true">
+
+
+                    <TextView
+                        android:id="@+id/tv15"
+                        android:layout_width="290dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:ems="10"
+                        android:inputType="textMultiLine"
+                        android:text="Example 15"
+
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+
+            app:cardCornerRadius="20dp"
+            app:cardElevation="11dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:id="@+id/Rl16"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/card_view_background"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="66dp">
+
+                    <TextView
+                        android:id="@+id/Qs16"
+                        android:layout_width="103dp"
+                        android:layout_height="34dp"
+                        android:layout_marginHorizontal="5dp"
+                        android:layout_marginVertical="10dp"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:text="Question 16"
+
+                        android:textSize="14sp" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/e16"
+                        android:layout_width="86dp"
+                        android:layout_height="41dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/edit_question_btn"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="5"
+                        android:text="Edit"
+                        android:textColor="#FFFFFF" />
+
+                    <Space
+                        android:layout_width="15dp"
+                        android:layout_height="43dp"
+                        android:layout_weight="1" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/c16"
+                        android:layout_width="86dp"
+                        android:layout_height="41dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/edit_question_btn"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="5"
+                        android:text="Clear"
+                        android:textColor="#FFFFFF" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="326dp"
+                    android:layout_height="69dp"
+                    android:layout_marginHorizontal="0dp"
+                    android:layout_marginVertical="65dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true">
+
+
+                    <TextView
+                        android:id="@+id/tv16"
+                        android:layout_width="290dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:ems="10"
+                        android:inputType="textMultiLine"
+                        android:text="Example 16"
+
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+
+            app:cardCornerRadius="20dp"
+            app:cardElevation="11dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:id="@+id/Rl17"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/card_view_background"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="66dp">
+
+                    <TextView
+                        android:id="@+id/Qs17"
+                        android:layout_width="103dp"
+                        android:layout_height="34dp"
+                        android:layout_marginHorizontal="5dp"
+                        android:layout_marginVertical="10dp"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:text="Question 17"
+
+                        android:textSize="14sp" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/e17"
+                        android:layout_width="86dp"
+                        android:layout_height="41dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/edit_question_btn"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="5"
+                        android:text="Edit"
+                        android:textColor="#FFFFFF" />
+
+                    <Space
+                        android:layout_width="15dp"
+                        android:layout_height="43dp"
+                        android:layout_weight="1" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/c17"
+                        android:layout_width="86dp"
+                        android:layout_height="41dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/edit_question_btn"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="5"
+                        android:text="Clear"
+                        android:textColor="#FFFFFF" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="326dp"
+                    android:layout_height="69dp"
+                    android:layout_marginHorizontal="0dp"
+                    android:layout_marginVertical="65dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true">
+
+
+                    <TextView
+                        android:id="@+id/tv17"
+                        android:layout_width="290dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:ems="10"
+                        android:inputType="textMultiLine"
+                        android:text="Example 17"
+
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+
+            app:cardCornerRadius="20dp"
+            app:cardElevation="11dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:id="@+id/Rl18"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/card_view_background"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="66dp">
+
+                    <TextView
+                        android:id="@+id/Qs18"
+                        android:layout_width="103dp"
+                        android:layout_height="34dp"
+                        android:layout_marginHorizontal="5dp"
+                        android:layout_marginVertical="10dp"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:text="Question 18"
+
+                        android:textSize="14sp" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/e18"
+                        android:layout_width="86dp"
+                        android:layout_height="41dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/edit_question_btn"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="5"
+                        android:text="Edit"
+                        android:textColor="#FFFFFF" />
+
+                    <Space
+                        android:layout_width="15dp"
+                        android:layout_height="43dp"
+                        android:layout_weight="1" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/c18"
+                        android:layout_width="86dp"
+                        android:layout_height="41dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/edit_question_btn"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="5"
+                        android:text="Clear"
+                        android:textColor="#FFFFFF" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="326dp"
+                    android:layout_height="69dp"
+                    android:layout_marginHorizontal="0dp"
+                    android:layout_marginVertical="65dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true">
+
+
+                    <TextView
+                        android:id="@+id/tv18"
+                        android:layout_width="290dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:ems="10"
+                        android:inputType="textMultiLine"
+                        android:text="Example 18"
+
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+
+            app:cardCornerRadius="20dp"
+            app:cardElevation="11dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:id="@+id/Rl19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/card_view_background"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="66dp">
+
+                    <TextView
+                        android:id="@+id/Qs19"
+                        android:layout_width="103dp"
+                        android:layout_height="34dp"
+                        android:layout_marginHorizontal="5dp"
+                        android:layout_marginVertical="10dp"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:text="Question 19"
+
+                        android:textSize="14sp" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/e19"
+                        android:layout_width="86dp"
+                        android:layout_height="41dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/edit_question_btn"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="5"
+                        android:text="Edit"
+                        android:textColor="#FFFFFF" />
+
+                    <Space
+                        android:layout_width="15dp"
+                        android:layout_height="43dp"
+                        android:layout_weight="1" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/c19"
+                        android:layout_width="86dp"
+                        android:layout_height="41dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/edit_question_btn"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="5"
+                        android:text="Clear"
+                        android:textColor="#FFFFFF" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="326dp"
+                    android:layout_height="69dp"
+                    android:layout_marginHorizontal="0dp"
+                    android:layout_marginVertical="65dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true">
+
+
+                    <TextView
+                        android:id="@+id/tv19"
+                        android:layout_width="290dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:ems="10"
+                        android:inputType="textMultiLine"
+                        android:text="Example 19"
+
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+
+            app:cardCornerRadius="20dp"
+            app:cardElevation="11dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:id="@+id/Rl20"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/card_view_background"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="66dp">
+
+                    <TextView
+                        android:id="@+id/Qs20"
+                        android:layout_width="103dp"
+                        android:layout_height="34dp"
+                        android:layout_marginHorizontal="5dp"
+                        android:layout_marginVertical="10dp"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:text="Question 20"
+
+                        android:textSize="14sp" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/e20"
+                        android:layout_width="86dp"
+                        android:layout_height="41dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/edit_question_btn"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="5"
+                        android:text="Edit"
+                        android:textColor="#FFFFFF" />
+
+                    <Space
+                        android:layout_width="15dp"
+                        android:layout_height="43dp"
+                        android:layout_weight="1" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/c20"
+                        android:layout_width="86dp"
+                        android:layout_height="41dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/edit_question_btn"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="5"
+                        android:text="Clear"
+                        android:textColor="#FFFFFF" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="326dp"
+                    android:layout_height="69dp"
+                    android:layout_marginHorizontal="0dp"
+                    android:layout_marginVertical="65dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true">
+
+
+                    <TextView
+                        android:id="@+id/tv20"
+                        android:layout_width="290dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:ems="10"
+                        android:inputType="textMultiLine"
+                        android:text="Example 20"
+
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+</ScrollView>
+
